@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+ul {	
+			padding:10px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 500px;
+			} 
+	li {	display:inline;
+			background-color: deepskyblue;
+			padding:10px;
+			border: 2px #0F5676;
+		}
+	li:active {background-color:deepskyblue;} 
+		
+	li a {	color:white; 
+			font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;
+			background-color:black;}
+p {
+	color:floralwhite;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14px;
+	line-height: 15px;
+	width: 1000px;
+	background-color: black;
+	padding: 15px;		
+}
+
+.novi_blok{
+	background-color: aliceblue;
+	padding: 25px;
+	margin: 25px;
+	width: 75%;
+}
+h2, h4 {
+	color: darkgrey;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" New, "monospace";	
+}
+
+.pozadina {
+	background-image: url("pozadina.jpg");
+	background-color: darkgray;	
+}
+
+.centered {
+  text-align: center;
+}
+
+ p {
+    width: 50%;
+    margin: 0 auto;
+  }
+h3 {
+	color: lightblue;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" New, "monospace";	
+}
+@font-face {
+	fontfamily:"NikaIvandija";
+	src: url("NikaIvandija.ttf") format("truetype");
+	
+}
+h1 {
+	font-family: "NikaIvandija";
+	color: lightgray;
+	font-size: 50px;
+}
